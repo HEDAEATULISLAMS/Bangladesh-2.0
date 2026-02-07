@@ -33,7 +33,8 @@ body {
 }
 
 main section {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+
 }
 
 .content {
@@ -41,41 +42,42 @@ main section {
 
     border-radius: 24px;
     background: rgba(198, 228, 214, 1);
-    gap: 64;
     display: flex;
     justify-content: center;
-    align-items: 0 auto;
     flex-direction: row;
     background-position: center;
-    padding: 80px 100px 80px 100px;
+    padding: 80px 100px 80px 60px;
     margin: 0px 160px 0px;
 
 }
 
 .main-content .title {
     color: rgba(14, 14, 14, 0.5);
-
     font-family: Fira Sans;
     font-style: Medium;
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
     text-align: left;
+}
+
+.content .main-content-img {
+    width: 390px;
+    height: 350px;
 }
 
 .main-content .sub-title {
     color: rgba(14, 14, 14, 1);
     font-family: Fira Sans;
     font-style: Bold;
-    font-size: 67px;
-    font-weight: 1000;
-    line-height: 70px;
-    letter-spacing: 2px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
 }
 
 .main-content .btn-box {
-    width: 270px;
+    width: 230px;
     height: 56px;
     border-radius: 8px;
     background: rgba(0, 106, 80, 1);
@@ -87,28 +89,29 @@ main section {
     font-size: 10px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
+
 }
 
-.piller-title {
+.title {
     color: rgba(14, 14, 14, 1);
     font-family: Fira Sans;
     font-style: Bold;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: left;
     padding-left: 160px;
 }
 
 .card {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 24px;
+    /* justify-content: center;
     flex-direction: row;
-    align-items: center;
     padding: 0px 160px 0px 160px;
-    gap: 50px;
+    gap: 50px; */
+    padding: 0px 160px 0px 160px;
 }
 
 .card-content {
@@ -116,10 +119,176 @@ main section {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
-    gap: 24;
-    padding: 28px;
-    width: 340px;
-    height: 244px;
-    align-items: center;
+    padding: 14px;
+    margin: 0, auto;
+    gap: 24px;
+    /* width: 340px;
+    height: 244px; */
+}
 
+/* VISION Part */
+
+.description-content {
+    color: rgba(14, 14, 14, 0.7);
+
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 0px 160px 0px 160px;
+    text-align: justify;
+}
+
+.vision-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0px 160px 0px 160px;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.vision-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-color {
+    color: rgba(255, 255, 255, 1);
+    font-family: Fira Sans;
+    font-style: SemiBold;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.vision-btn1 {
+    width: 122px;
+    height: 41px;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgba(84, 144, 245, 1);
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.vision-btn1:hover {
+    background-color: #eb6fa9;
+
+}
+
+.vision-btn2 {
+    width: 122px;
+    height: 41px;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgba(9, 161, 92, 1);
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.vision-btn2:hover {
+    background-color: #1a1316;
+
+}
+
+.vision-btn3 {
+    width: 122px;
+    height: 41px;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgba(255, 194, 57, 1);
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.vision-btn3:hover {
+    background-color: #f37171;
+
+}
+
+.vision-card-content1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    color: rgba(14, 14, 14, 0.8);
+    padding: 32px;
+}
+
+.vision-card-content2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(198, 228, 214, 1);
+    padding: 32px;
+
+}
+
+.vision-card-content3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(247, 235, 207, 1);
+    padding: 32px;
+}
+
+.bani {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    margin: 32px 160px 0px 160px;
+    padding: 48px 24px 48px 24px;
+    position: relative;
+}
+
+.img-size {
+    width: 64px;
+    height: auto;
+    position: absolute; 
+}
+
+.bani-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding-top: 7px;
+}
+.bani-sub-title{
+    color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.bani-sub{
+    color: rgba(14, 14, 14, 0.6);
+
+font-family: Fira Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
